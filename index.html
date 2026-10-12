@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santhosh M | AI Engineer Portfolio</title>
+    
+    <!-- Link Pure CSS Stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    
+    <!-- Import Lucide Icon Library SDK (CDN) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    
+    <!-- Dynamic Custom Spotlight & Cursor Dot Followers -->
+    <div id="cursor-dot" class="custom-cursor"></div>
+    <div id="cursor-follower" class="custom-cursor-follower"></div>
+    
+    <!-- High Performance Particles Background Canvas & Sci-Fi overlays -->
+    <canvas id="bg-canvas"></canvas>
+    <div id="bg-grid-overlay"></div>
+    <div id="mouse-spotlight"></div>
+
+    <!-- Header Navigation Bar -->
+    <header>
+      <a href="#hero" class="logo">
+        <span>&lt;</span> SANTHOSH.M <span>_ /&gt;</span>
+      </a>
+      
+      <!-- Hamburger Menu Mobile Toggle -->
+      <div class="mobile-toggle" id="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li class="active"><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#internship">Internship</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ==================== HERO SECTION ==================== -->
+      <section id="hero">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span></span> AI Engineer Node _ Active
+          </div>
+          <h1 class="hero-name">
+            HI, I'm
+            <span class="gradient-text-rainbow">Santhosh M</span>
+          </h1>
+          <div class="hero-typing">
+            _ <span class="typed-text"></span><span class="cursor">|</span>
+          </div>
+          <div class="cta-group">
+            <button class="btn-cyber btn-cyber-primary open-resume-btn" id="resume-trigger">
+              <i data-lucide="file-text"></i> Download Resume
+            </button>
+            <a href="#projects" class="btn-cyber btn-cyber-secondary">
+              <i data-lucide="layout-grid"></i> View Projects
+            </a>
+            <a href="#contact" class="btn-cyber btn-cyber-tertiary">
+              <i data-lucide="send"></i> Contact Me
+            </a>
+          </div>
+        </div>
+
+        <!-- Floating Geometric Hologram Ring on Hero Right Column -->
+        <div class="hero-visual">
+          <div class="holo-shield">
+            <div class="holo-shield-inner">
+              <div class="holo-center">
+                <i data-lucide="cpu" style="width: 48px; height: 48px; color: var(--neon-cyan);"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== ABOUT SECTION ==================== -->
+      <section id="about">
+        <div class="section-header scroll-reveal">
+          <span class="section-num">01 // PROFILE</span>
+          <h2 class="section-title">ABOUT <span>ME</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text scroll-reveal delay-1">
+            <div class="about-highlight">
+              Engineering autonomous smart models and crafting responsive modern system architectures.
+            </div>
+            <p>
+              I am a specialized <span>Artificial Intelligence & Data Science Student</span> currently developing smart neural networks, predictive analytic models, and robust full stack system utilities.
+            </p>
+            <p>
+              My design standard is built on the principle of combining deep theoretical data modeling with pristine, functional responsive code. I construct secure systems utilizing Python packages alongside high-performance full stack components.
+            </p>
+            
+            <div class="about-stats">
+              <div class="stat-item glass-panel">
+                <span class="stat-val">2027</span>
+                <span class="stat-label">Graduation Year</span>
+              </div>
+              <div class="stat-item glass-panel">
+                <span class="stat-val">3+</span>
+                <span class="stat-label">Core Projects</span>
+              </div>
+              <div class="stat-item glass-panel">
+                <span class="stat-val">80%</span>
+                <span class="stat-label">HS Milestone</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile Pillars Grid -->
+          <div class="about-pillars scroll-reveal delay-2">
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon">
+                <i data-lucide="brain"></i>
+              </div>
+              <div>
+                <h4 class="pillar-title">Machine Learning & CV</h4>
+                <p class="pillar-desc">Constructing custom algorithmic training structures, landmark tracking schemes, and computational workflows using OpenCV.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon">
+                <i data-lucide="code-2"></i>
+              </div>
+              <div>
+                <h4 class="pillar-title">Full Stack Architecture</h4>
+                <p class="pillar-desc">Assembling fast-responding client web services, custom interfaces, and safe REST components with secure transaction controls.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon">
+                <i data-lucide="database"></i>
+              </div>
+              <div>
+                <h4 class="pillar-title">Scalable Databases</h4>
+                <p class="pillar-desc">Designing transactionally safe query routines, structured relational SQL normalization schemas, and flexible non-relational MongoDB pools.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== SKILLS SECTION ==================== -->
+      <section id="skills">
+        <div class="section-header scroll-reveal">
+          <span class="section-num">02 // CORE TECHNOLOGIES</span>
+          <h2 class="section-title">TECHNICAL <span>SKILLS</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Column 1: Programming Languages -->
+          <div class="skill-category-card glass-panel scroll-reveal delay-1">
+            <h3 class="skill-cat-title">
+              Programming <i data-lucide="code"></i>
+            </h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-perc">92%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-bar" data-percent="92"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Java</span>
+                  <span class="skill-perc">85%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-bar" data-percent="85"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">C</span>
+                  <span class="skill-perc">80%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-bar" data-percent="80"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">C++</span>
+                  <span class="skill-perc">78%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-bar" data-percent="78"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Web & Database -->
+          <div class="skill-category-card glass-panel scroll-reveal delay-2">
+            <h3 class="skill-cat-title">
+              Web & Database <i data-lucide="database-backup"></i>
+            </h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML / CSS / JavaScript</span>
+                  <span class="skill-perc">90%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-bar" data-percent="90"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">SQL</span>
+                  <span class="skill-perc">86%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-bar" data-percent="86"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">MongoDB</span>
+                  <span class="skill-perc">82%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-bar" data-percent="82"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 3: Frameworks & AI Core -->
+          <div class="skill-category-card glass-panel scroll-reveal delay-3">
+            <h3 class="skill-cat-title">
+              Frameworks & AI <i data-lucide="sparkles"></i>
+            </h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Machine Learning Models</span>
+                  <span class="skill-perc">88%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-bar" data-percent="88"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">OpenCV</span>
+                  <span class="skill-perc">84%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-bar" data-percent="84"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Spring Boot</span>
+                  <span class="skill-perc">75%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-bar" data-percent="75"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== EDUCATION SECTION ==================== -->
+      <section id="education">
+        <div class="section-header scroll-reveal">
+          <span class="section-num">03 // CHRONOLOGICAL NODES</span>
+          <h2 class="section-title">EDUCATION <span>HISTORY</span></h2>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Node 1: College -->
+          <div class="timeline-item timeline-item-left scroll-reveal delay-1">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card glass-panel">
+              <span class="timeline-period">2023 - 2027</span>
+              <h3 class="timeline-title">B.Tech in Artificial Intelligence & Data Science</h3>
+              <h4 class="timeline-subtitle">PSR Engineering College</h4>
+              <p class="timeline-desc">
+                Engaging in deep curriculum pathways covering Machine Learning, Neural Networks/Deep Learning systems, database normalizations, algorithm structures, and computer vision mathematics.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Node 2: 12th standard -->
+          <div class="timeline-item timeline-item-right scroll-reveal delay-2">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card glass-panel">
+              <span class="timeline-period">2021 - 2023</span>
+              <h3 class="timeline-title">12th Standard Secondary Education</h3>
+              <h4 class="timeline-subtitle">Graduated High School</h4>
+              <p class="timeline-desc">
+                Achieved a milestone grade score of <span>80%</span>. Acquired key foundations across mathematics, natural sciences, logic structures, and introductory computing methodologies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== PROJECTS SECTION ==================== -->
+      <section id="projects">
+        <div class="section-header scroll-reveal">
+          <span class="section-num">04 // COMPILATION ARTIFACTS</span>
+          <h2 class="section-title">CORE <span>PROJECTS</span></h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <div class="project-card glass-panel scroll-reveal delay-1">
+            <div class="project-image-box">
+              <svg class="project-geometric-art" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <radialGradient id="grad1" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="var(--neon-cyan)" stop-opacity="0.3"/>
+                  <stop offset="100%" stop-color="transparent"/>
+                </radialGradient>
+                <circle cx="50" cy="50" r="30" fill="url(#grad1)"/>
+                <polygon points="50,15 85,75 15,75" stroke="var(--neon-cyan)" stroke-width="0.5" fill="none" />
+              </svg>
+              <div class="project-icon-badge">
+                <i data-lucide="film"></i>
+              </div>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-badges">
+                <span class="badge-tech">Python</span>
+                <span class="badge-tech">Machine Learning</span>
+                <span class="badge-tech">Scikit-Learn</span>
+                <span class="badge-tech">Pandas</span>
+              </div>
+              <h3 class="project-title">Movie Recommendation System</h3>
+              <p class="project-desc">
+                An intelligent system delivering film recommendations based on content similarity and movie genre vector matrices. Features cosine distance calculations to discover patterns across highly structured dataset vectors.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/santhosh3122005" target="_blank" class="btn-project btn-git" rel="noreferrer">
+                  <i data-lucide="github"></i> Repository
+                </a>
+                <a href="#" class="btn-project btn-demo">
+                  <i data-lucide="external-link"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card glass-panel scroll-reveal delay-2">
+            <div class="project-image-box">
+              <svg class="project-geometric-art" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <radialGradient id="grad2" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="var(--neon-purple)" stop-opacity="0.3"/>
+                  <stop offset="100%" stop-color="transparent"/>
+                </radialGradient>
+                <circle cx="50" cy="50" r="30" fill="url(#grad2)"/>
+                <rect x="25" y="25" width="50" height="50" stroke="var(--neon-purple)" stroke-width="0.5" fill="none"/>
+              </svg>
+              <div class="project-icon-badge">
+                <i data-lucide="mic"></i>
+              </div>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-badges">
+                <span class="badge-tech">JavaScript</span>
+                <span class="badge-tech">Web Speech API</span>
+                <span class="badge-tech">HTML5</span>
+                <span class="badge-tech">CSS3</span>
+              </div>
+              <h3 class="project-title">Voice to Text Application</h3>
+              <p class="project-desc">
+                High-performance transcription client built using browser Web Speech codecs. Converts voice signals to readable, formatted text documents. Fully responsive interface includes quick copying and file save triggers.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/santhosh3122005" target="_blank" class="btn-project btn-git" rel="noreferrer">
+                  <i data-lucide="github"></i> Repository
+                </a>
+                <a href="#" class="btn-project btn-demo">
+                  <i data-lucide="external-link"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-card glass-panel scroll-reveal delay-3">
+            <div class="project-image-box">
+              <svg class="project-geometric-art" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <radialGradient id="grad3" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="var(--neon-magenta)" stop-opacity="0.3"/>
+                  <stop offset="100%" stop-color="transparent"/>
+                </radialGradient>
+                <circle cx="50" cy="50" r="30" fill="url(#grad3)"/>
+                <circle cx="50" cy="50" r="25" stroke="var(--neon-magenta)" stroke-width="0.5" fill="none"/>
+              </svg>
+              <div class="project-icon-badge">
+                <i data-lucide="scan-face"></i>
+              </div>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-badges">
+                <span class="badge-tech">OpenCV</span>
+                <span class="badge-tech">Python</span>
+                <span class="badge-tech">QR Code</span>
+                <span class="badge-tech">SQL</span>
+              </div>
+              <h3 class="project-title">Smart Attendance System</h3>
+              <p class="project-desc">
+                Enterprise security checker matching biometric face coordinates and landmarks. Combined alongside dynamically updating encrypted QR-codes to generate swift, authentic, and manipulation-proof check-in entries.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/santhosh3122005" target="_blank" class="btn-project btn-git" rel="noreferrer">
+                  <i data-lucide="github"></i> Repository
+                </a>
+                <a href="#" class="btn-project btn-demo">
+                  <i data-lucide="external-link"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== INTERNSHIP SECTION ==================== -->
+      <section id="internship">
+        <div class="section-header scroll-reveal">
+          <span class="section-num">05 // WORK SESSION</span>
+          <h2 class="section-title">PROFESSIONAL <span>INTERNSHIP</span></h2>
+        </div>
+
+        <div class="internship-container scroll-reveal delay-1">
+          <div class="intern-card glass-panel">
+            <div class="intern-header">
+              <div class="intern-co">
+                <div class="intern-icon-box">
+                  <i data-lucide="briefcase"></i>
+                </div>
+                <div>
+                  <h3 class="intern-title">Full Stack Developer Intern</h3>
+                  <span class="intern-company">SDLC Virtual Internship</span>
+                </div>
+              </div>
+              <span class="intern-period">Session Active</span>
+            </div>
+            
+            <ul class="intern-desc-list">
+              <li>Engineered interactive user layouts using clean, modular vanilla JavaScript. Kept styles optimized with low-layout shifts and fast painting ratios.</li>
+              <li>Integrated databases including non-relational MongoDB pools and relational SQL databases to conduct fast server transactions and secure CRUD routines.</li>
+              <li>Collaborated on building robust RESTful controller architectures, documenting APIs utilizing standardized clean code patterns.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== CONTACT SECTION ==================== -->
+      <section id="contact">
+        <div class="section-header scroll-reveal">
+          <span class="section-num">06 // DIRECT PORT ACCESS</span>
+          <h2 class="section-title">GET IN <span>TOUCH</span></h2>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-layout">
+            <!-- Left Info Panel -->
+            <div class="contact-info-panel glass-panel scroll-reveal delay-1">
+              <div class="contact-heading-box">
+                <h3>Let's collaborate on intelligent solutions.</h3>
+                <p>Have an interesting project or research dataset to model? Select a secure transfer channel on the panel to established immediate connection.</p>
+              </div>
+
+              <div class="contact-list">
+                <!-- Email Item -->
+                <a href="mailto:santhosh3122005@gmail.com" class="contact-list-item">
+                  <div class="contact-icon-wrapper">
+                    <i data-lucide="mail"></i>
+                  </div>
+                  <div>
+                    <span class="contact-item-label">Secure Email</span>
+                    <span class="contact-item-val">santhosh3122005@gmail.com</span>
+                  </div>
+                </a>
+
+                <!-- Location placeholder -->
+                <div class="contact-list-item">
+                  <div class="contact-icon-wrapper">
+                    <i data-lucide="map-pin"></i>
+                  </div>
+                  <div>
+                    <span class="contact-item-label">Deployment Grid / Location</span>
+                    <span class="contact-item-val">PSR Engineering College, India</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div class="social-links">
+                <a href="mailto:santhosh3122005@gmail.com" class="social-btn" title="Email">
+                  <i data-lucide="mail"></i>
+                </a>
+                <a href="https://github.com/santhosh3122005" target="_blank" class="social-btn github-btn" title="GitHub" rel="noreferrer">
+                  <i data-lucide="github"></i>
+                </a>
+                <a href="https://linkedin.com/in/santhosh-m-3112a52b6" target="_blank" class="social-btn linkedin" title="LinkedIn" rel="noreferrer">
+                  <i data-lucide="linkedin"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Message panel form -->
+            <div class="contact-form-panel glass-panel scroll-reveal delay-2">
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="form_name" class="form-label">Full Identifier Name</label>
+                  <input type="text" id="form_name" name="name" class="form-control" placeholder="Enter Full Name" required />
+                </div>
+                <div class="form-group">
+                  <label for="form_email" class="form-label">Secure Email Address</label>
+                  <input type="email" id="form_email" name="email" class="form-control" placeholder="yourname@domain.com" required />
+                </div>
+                <div class="form-group">
+                  <label for="form_subject" class="form-label">Subject Topic</label>
+                  <input type="text" id="form_subject" name="subject" class="form-control" placeholder="System Integration Query" required />
+                </div>
+                <div class="form-group">
+                  <label for="form_message" class="form-label">Encryption Message Body</label>
+                  <textarea id="form_message" name="message" class="form-control" rows="4" placeholder="Enter session proposal notes..." required></textarea>
+                </div>
+                <button type="submit" class="btn-cyber btn-cyber-primary btn-form-submit">
+                  <i data-lucide="lock"></i> Dispatch Secure Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== RÉSUMÉ POPUP MODAL DIALOG ==================== -->
+    <div id="resume-modal" class="resume-modal">
+      <div class="resume-modal-container">
+        <div class="resume-modal-header">
+          <div class="resume-modal-title">SECURE_DOSSIER // SANTHOSH_M_RESUME</div>
+          <button id="resume-modal-close" class="resume-modal-close-btn" title="Close Dossier">
+            <i data-lucide="x" style="width: 24px; height: 24px;"></i>
+          </button>
+        </div>
+        <div class="resume-iframe-body">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 40px; flex-wrap: wrap; gap: 20px;">
+            <div>
+              <h2 style="font-family: var(--font-display); color: white; font-size: 2rem; font-weight: 700; margin-bottom: 6px;">SANTHOSH M</h2>
+              <p style="font-family: var(--font-mono); color: var(--neon-cyan); font-size: 0.9rem; letter-spacing: 0.05em;">AI & Data Science Student | Full Stack Developer</p>
+            </div>
+            <div style="text-align: right; font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-muted);">
+              <div>sec-terminal://santhoshm_dossier</div>
+              <div>email: santhosh3122005@gmail.com</div>
+              <div>PSR Engineering College</div>
+            </div>
+          </div>
+
+          <div class="resume-text-item">
+            <h3 class="resume-text-header">Technical Focus Overview</h3>
+            <p>Undergrad majoring in Artificial Intelligence & Data Science with proven aptitude for computer vision tracking tools, multi-level predictive model calculations, database query integrations, and responsive client-facing full stack environments.</p>
+          </div>
+
+          <div class="resume-text-item">
+            <h3 class="resume-text-header">Education Node</h3>
+            <div style="margin-bottom: 12px;">
+              <strong style="color: white; font-family: var(--font-display);">B.Tech in Artificial Intelligence & Data Science</strong><br>
+              <span style="font-size: 0.9rem; color: var(--neon-cyan);">PSR Engineering College — 2023 - 2027</span>
+            </div>
+            <div>
+              <strong style="color: white; font-family: var(--font-display);">Secondary High School (12th Standard)</strong><br>
+              <span style="font-size: 0.9rem; color: var(--neon-cyan);">Graduated — Score Milestone: 80% Achieved</span>
+            </div>
+          </div>
+
+          <div class="resume-text-item">
+            <h3 class="resume-text-header">Professional Internship</h3>
+            <strong style="color: white; font-family: var(--font-display);">Full Stack Developer Intern</strong><br>
+            <span style="font-size: 0.9rem; color: var(--neon-purple); display: block; margin-bottom: 6px;">SDLC Virtual Internship</span>
+            <ul style="padding-left: 20px; list-style-type: square; font-size: 0.92rem;">
+              <li>Constructed front-end browser interfaces, optimizing painting latency.</li>
+              <li>Designed structured SQL and non-relational MongoDB databases for robust transaction logs.</li>
+              <li>Created multi-tier server-side modular architectures using clean code standards.</li>
+            </ul>
+          </div>
+
+          <div class="resume-text-item">
+            <h3 class="resume-text-header">Core Tech Toolkit</h3>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; font-size: 0.92rem;">
+              <div>• <strong>Programming:</strong> Python, Java, C, C++</div>
+              <div>• <strong>Database:</strong> SQL, MongoDB</div>
+              <div>• <strong>Web Architecture:</strong> HTML5, CSS3, JavaScript (ES6+)</div>
+              <div>• <strong>Frameworks:</strong> Spring Boot</div>
+              <div>• <strong>AI Core:</strong> OpenCV, Machine Learning algorithms</div>
+            </div>
+          </div>
+
+          <div class="resume-text-item" style="margin-bottom: 0;">
+            <h3 class="resume-text-header">Academic Project Artifacts</h3>
+            <div style="margin-bottom: 12px;">
+              <strong style="color: white;">Movie Recommendation System</strong><br>
+              <p style="font-size: 0.88rem;">Designed cosine distance calculations across datasets inside Python to generate relevant film recommended values.</p>
+            </div>
+            <div style="margin-bottom: 12px;">
+              <strong style="color: white;">Voice to Text Application</strong><br>
+              <p style="font-size: 0.88rem;">Engineered speech-to-text transcript application using Web Speech browser APIs.</p>
+            </div>
+            <div>
+              <strong style="color: white;">Smart Attendance System using Face Recognition & QR-Codes</strong><br>
+              <p style="font-size: 0.88rem;">Integrated Python landmark matching cameras using OpenCV linked with shifting transaction QR algorithms to eliminate fraud check-ins.</p>
+            </div>
+          </div>
+          
+          <div style="display: flex; justify-content: center; margin-top: 40px; border-top: 1px dashed rgba(255, 255, 255, 0.1); padding-top: 30px;">
+            <button onclick="window.print()" class="btn-cyber btn-cyber-primary" style="padding: 10px 24px; font-size: 0.85rem;">
+              <i data-lucide="printer"></i> Print / Save as PDF
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating Status Bar Action Toast Notification -->
+    <div id="toast-success" class="toast-success">
+      <i data-lucide="check-circle-2"></i>
+      <div>
+        <strong>MESSAGE DISPATCHED</strong><br>
+        <span style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">Secure portfolio channel initialized.</span>
+      </div>
+    </div>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+      <p class="footer-text">
+        &copy; 2026 // Santhosh M. All rights secured.
+      </p>
+      <div class="footer-logo">
+        <span>&lt;</span> S.M <span>/&gt;</span>
+      </div>
+      <p class="footer-text">
+        Designed &amp; Engineered by <span>Santhosh M</span>
+      </p>
+    </footer>
+
+    <!-- Initialize Lucide icons on document load -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        if (window.lucide && typeof window.lucide.createIcons === 'function') {
+          window.lucide.createIcons();
+        }
+      });
+    </script>
+    
+    <!-- Link Interactive Engine Module -->
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
